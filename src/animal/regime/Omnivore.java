@@ -7,7 +7,7 @@ package animal.regime;
 
 import animal.aliments.Aliment;
 import animal.animals.Homme;
-import modelisationanimal2.Animal;
+import animal.animals.Animal;
 
 /**
  *

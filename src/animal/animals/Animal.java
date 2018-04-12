@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package modelisationanimal2;
+package animal.animals;
 
 import animal.aliments.Aliment;
 import animal.regime.Regime;

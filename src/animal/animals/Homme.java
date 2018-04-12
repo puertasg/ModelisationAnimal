@@ -6,7 +6,6 @@
 package animal.animals;
 
 import animal.regime.Omnivore;
-import modelisationanimal2.Animal;
 
 /**
  *
