@@ -6,7 +6,7 @@
 package animal.regime;
 
 import animal.aliments.Aliment;
-import org.apache.commons.lang3.StringUtils;
+import animal.aliments.Herbe;
 
 /**
  *
@@ -21,7 +21,7 @@ public class Herbivore extends Regime {
     
     public void manger(Aliment a)
     {
-        if(StringUtils.equals(a.getType(), "Herbe"))
+        if(a.getClass() == Herbe.class)
         {
             System.out.println("Je mange comme un herbivore");
         }

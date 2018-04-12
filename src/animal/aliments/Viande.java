@@ -13,7 +13,7 @@ public class Viande extends Aliment {
     
     public Viande()
     {
-        super("Viande");
+        super();
     }
     
 }

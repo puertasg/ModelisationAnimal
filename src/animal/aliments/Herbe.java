@@ -13,7 +13,6 @@ public class Herbe extends Aliment {
     
     public Herbe()
     {
-        super("Herbe");
+        super();
     }
-    
 }

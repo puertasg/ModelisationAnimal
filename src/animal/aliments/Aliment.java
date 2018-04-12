@@ -11,16 +11,8 @@ package animal.aliments;
  */
 public abstract class Aliment {
 
-    /**
-     * @return the type
-     */
-    public String getType() {
-        return type;
-    }
-    
-    private String type;
-    public Aliment(String t)
+    public Aliment()
     {
-        this.type = t;
+        
     }
 }
