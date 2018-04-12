@@ -6,7 +6,6 @@
 package animal.regime;
 
 import animal.aliments.Aliment;
-import animal.animals.Animal;
 
 /**
  *
@@ -20,11 +19,6 @@ public abstract class Regime {
     }
     
     public void manger(Aliment a)
-    {
-        
-    }
-
-    public void manger(Animal an) 
     {
         
     }

@@ -6,13 +6,14 @@
 package animal.animals;
 
 import animal.aliments.Aliment;
+import animal.aliments.Viande;
 import animal.regime.Regime;
 
 /**
  *
  * @author diginamic05
  */
-public abstract class Animal {
+public abstract class Animal extends Viande{
     
     protected int age;
     protected int poids;
@@ -31,11 +32,6 @@ public abstract class Animal {
     public void manger(Aliment a)
     {
         this.r.manger(a);
-    }
-    
-    public void manger(Animal an)
-    {
-        this.r.manger(an);
     }
     
     public void deplacer()

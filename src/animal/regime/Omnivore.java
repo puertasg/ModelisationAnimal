@@ -6,8 +6,6 @@
 package animal.regime;
 
 import animal.aliments.Aliment;
-import animal.animals.Homme;
-import animal.animals.Animal;
 
 /**
  *
@@ -23,17 +21,5 @@ public class Omnivore extends Regime {
     public void manger(Aliment a)
     {
         System.out.println("Je mange comme un omnivore");
-    }
-    
-    public void manger(Animal an)
-    {
-        if(an.getClass() != Homme.class)
-        {
-            System.out.println("Je mange un autre animal");
-        }
-        else
-        {
-            System.out.println("Non merci");
-        }
     }
 }
