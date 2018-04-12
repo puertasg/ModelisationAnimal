@@ -9,7 +9,7 @@ package animal.aliments;
  *
  * @author diginamic05
  */
-public class Aliment {
+public abstract class Aliment {
 
     /**
      * @return the type
