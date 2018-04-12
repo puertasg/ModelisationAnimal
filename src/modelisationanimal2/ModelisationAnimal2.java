@@ -14,9 +14,6 @@ import animal.animals.*;
  */
 public class ModelisationAnimal2 {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         Lapin l = new Lapin(1, 2, 3, "l");
         Lion li = new Lion(1, 2, 3, "li");
@@ -28,9 +25,9 @@ public class ModelisationAnimal2 {
         Aliment v = new Viande();
         Aliment h = new Herbe();
         
-        ho.manger(hy);
         ho.manger(h);
         
+        ho.manger(hy);
         ho.manger(ho2);
     }
 }
